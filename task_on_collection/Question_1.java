@@ -6,21 +6,23 @@ public class Question_1 {
 	{
 		
 //		//( a ) Wite a Java program to create read only data using List .
-		List<Integer> l1=new ArrayList<Integer>();
-		
-		Integer[] arr= {1,2,3,4,5,6,7,8,9};
-		for(int i=0;i<arr.length;i++)
-		{
-			l1.add(arr[i]);
-	}
-		List<Integer> l2=Collections.unmodifiableList(l1);
-
-		l2.add(10);
-		System.out.println(l2);
-////		
-//		
-////		//( b )Wite a Java program to create read only data using ArrayList
 //		List<Integer> l1=new ArrayList<Integer>();
+//		
+//		Integer[] arr= {1,2,3,4,5,6,7,8,9};
+//		for(int i=0;i<arr.length;i++)
+//		{
+//			l1.add(arr[i]);
+//		}
+//		List<Integer> l2=Collections.unmodifiableList(l1);
+
+		
+		//		//l2.add(10);
+//		System.out.println(l2);
+//		
+		
+//		//( b )Wite a Java program to create read only data using ArrayList
+//		List<Integer> l1=new ArrayList<Integer>();
+//		
 //		Integer[] arr= {1,2,3,4,5,6,7,8,9};
 //		for(int i=0;i<arr.length;i++)
 //		{
@@ -29,8 +31,8 @@ public class Question_1 {
 //		ArrayList<Integer> l2= (ArrayList<Integer>) Collections.unmodifiableList(l1);
 //		l2.add(10);
 //		System.out.println(l2);
-//		
-////		//(c)Wite a Java program to create read only data using set
+		
+//		//(c)Wite a Java program to create read only data using set
 //		Integer[] arr= {1,2,3,4,5,6,7,8,9,10};
 //		String[] str= {"one","two","three","four","five","six","seven","Eight","nine","ten"};
 //		Map<Integer,String> map=new HashMap<>(12);

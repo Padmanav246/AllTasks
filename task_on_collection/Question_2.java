@@ -25,22 +25,8 @@ public class Question_2 {
 		
 		
 //Q-b		//ArrayList to Array
-		//step-1
 		String[] arr=new String[a1.size()];
-//		arr=a1.toArray(arr);
+		arr=a1.toArray(arr);
 		
-		//step-2
-		int i=0;
-		Iterator<String> itr=a1.iterator();
-		while(itr.hasNext())
-		{
-			arr[i]=itr.next();
-			i++;
-		}
-		
-		for(i=0;i<arr.length;i++)
-		{
-		System.out.println(arr[i]);
-		}
 	}
 }
