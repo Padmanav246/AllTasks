@@ -46,5 +46,3 @@ public class Task {
 		System.out.println(str2);
 	}
 }
-
-
